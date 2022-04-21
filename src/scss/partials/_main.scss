@@ -13,12 +13,32 @@ html, body {
   flex: 1 0 auto;
 }
 
-header {
+.bg-primary {
   background-color: $header-background-color;
+}
+
+header {
   min-height: 70px;
 }
 
 main {
   width: 90%;
   margin: 120px auto;
+}
+
+.tab-content {
+  background: white;
+  padding: 1em;
+  min-height: 150px;
+  border-radius: 0 12px 12px 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
+  margin-top: -17px;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: grey;
+  background-color: white;
+  border-color: white;
+  border-radius: 12px 12px 0 0;
 }
