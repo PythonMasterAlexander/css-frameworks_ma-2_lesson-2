@@ -12,6 +12,8 @@ function CardSection(props) {
           <Card.Body>
             <Card.Title>{props.content}</Card.Title>
             <Card.Text>
+              Nam tincidunt, sapien nec congue porta, tellus risus ullamcorper mi,
+              a rutrum justo eros pretium libero.
             </Card.Text>
           </Card.Body>
         </Card>

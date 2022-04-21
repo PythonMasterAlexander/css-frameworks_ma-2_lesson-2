@@ -7,6 +7,8 @@ import CardSection from './components/CardSection';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import TabContainer from './components/Tab';
+import UserMessage from './components/UserMessage';
 
 function App() {
   return (
@@ -33,8 +35,11 @@ function App() {
           <Container>
             <Row>
               <Col>
+                <h4>Submit a comment</h4>
+                <UserMessage />
               </Col>
               <Col>
+                <TabContainer />
               </Col>
             </Row>
           </Container>
