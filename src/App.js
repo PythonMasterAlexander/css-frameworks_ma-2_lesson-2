@@ -19,12 +19,12 @@ function App() {
           <h2>Users</h2>
           <UserDatabase />
           <h3>Features</h3>
-          <Container>
-            <Row>
-              <Col>
+          <Container className="main-card-container">
+            <Row className="main-card-container__row-container">
+              <Col className="main-card-container__col-container">
                 <CardSection content="Card 1" />
               </Col>
-              <Col>
+              <Col className="main-card-container__col-container">
                 <CardSection content="Card 2" />
               </Col>
               <Col>
@@ -32,14 +32,14 @@ function App() {
               </Col>
             </Row>
           </Container>
-          <Container>
-            <Row>
-              <Col>
-                <h4>Submit a comment</h4>
-                <UserMessage />
-              </Col>
+          <Container className="main-tab-user-container">
+            <Row className="main-tab-user-container__row-container">
               <Col>
                 <TabContainer />
+              </Col>
+              <Col className="main-tab-user-container__col-container">
+                <h4>Submit a comment</h4>
+                <UserMessage />
               </Col>
             </Row>
           </Container>

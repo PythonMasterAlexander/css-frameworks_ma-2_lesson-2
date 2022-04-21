@@ -1,8 +1,30 @@
-.navbar-brand {
+.main-card-container {
+  &__row-container {
+    gap: 40px;
+  }
+}
+
+.main-tab-user-container {
+  margin-top: 40px;
+
+  &__row-container {
+    display: flex;
+    gap: 40px;
+
+    @media(max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+
+  &__col-container {
+    margin-top: 40px; 
+  }
 }
 
 footer {
+  align-items: center;
   display: flex;
   flex-shrink: 0;
   justify-content: space-around;
+  height: 100px;
 }
