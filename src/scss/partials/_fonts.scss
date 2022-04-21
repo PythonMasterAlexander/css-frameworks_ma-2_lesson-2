@@ -1,4 +1,11 @@
-a {
-  color: red;
-  text-decoration-line: none;
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  color: $header-heading-color;
+}
+
+footer {
+  color: $footer-heading-color;
 }
